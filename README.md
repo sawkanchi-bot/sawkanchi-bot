@@ -55,16 +55,16 @@
 <br/><br/>
 
 <!-- GitHub Stats Cards - Replace 'kanchikumari' with your actual username -->
-<a href="https://github.com/kanchikumari">
+<a href="https://github.com/kanchisaw03">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=kanchikumari&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a7e7&icon_color=ebbcba&text_color=e0def4&ring_color=c4a7e7" />
 </a>
-<a href="https://github.com/kanchikumari">
+<a href="https://github.com/kanchisaw03">
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kanchikumari&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c4a7e7&text_color=e0def4" />
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/kanchikumari">
+<a href="https://github.com/kanchisaw03">
   <img width="700" src="https://github-readme-streak-stats.herokuapp.com?user=kanchikumari&theme=tokyonight&hide_border=true&background=0D1117&ring=C4A7E7&fire=EBBCBA&currStreakLabel=E0DEF4&sideLabels=C4A7E7&currStreakNum=E0DEF4&sideNums=E0DEF4&dates=6E6A86" />
 </a>
 
@@ -95,17 +95,16 @@
 <br/><br/>
 
 <!-- Activity Graph - Replace username -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kanchisaw03&bg_color=0d1117&color=c4a7e7&line=ebbcba&point=e0def4&area=true&area_color=3e3e5e&hide_border=true" width="900" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kanchisaw03&bg_color=0d1117&color=c4a7e7&line=ebbcba&point=e0def4&area=true&area_color=3e3e5e&hide_border=true" width="900" />
 
 <br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <img src="assets/divider-stars.svg" width="100%" alt="" />
-
 <br/>
 
-```text
+```text ```
 ╭──────────────────────────────────────────────────────────────────╮
 │                                                                  │
 │   "The universe is not only queerer than we suppose,            │
@@ -114,3 +113,4 @@
 │                                    — J.B.S. Haldane              │
 │                                                                  │
 ╰──────────────────────────────────────────────────────────────────╯
+<br/><img src="https://komarev.com/ghpvc/?username=Kanchisaw03&style=for-the-badge&color=c4a7e7&labelColor=0d1117&label=SYSTEM+OBSERVERS" /></div> 
