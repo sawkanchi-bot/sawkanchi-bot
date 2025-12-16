@@ -4,7 +4,7 @@
      HERO BANNER - Save as: assets/hero-banner.svg
      ═══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="assets/hero-banner.svg" width="100%" alt="Kanchi Kumari - Full-Stack Engineer & AI/ML Developer" />
+<img src="hero-banner.svg" width="100%" alt="Kanchi Kumari - Full-Stack Engineer & AI/ML Developer" />
 
 <!-- ═══════════════════════════════════════════════════════════════════════════
      ANIMATED IDENTITY STATEMENT - Save as: assets/identity-morph.svg  
