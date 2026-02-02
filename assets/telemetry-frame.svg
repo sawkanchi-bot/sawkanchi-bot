@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="100%">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E6B8FF;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#E6B8FF;stop-opacity:0.5"/>
+      <stop offset="50%" style="stop-color:#FFB8D4;stop-opacity:0.8"/>
+      <stop offset="80%" style="stop-color:#B8D4FF;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#B8D4FF;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  
+  <!-- Top Frame Line -->
+  <line x1="50" y1="10" x2="850" y2="10" stroke="url(#frameGrad)" stroke-width="1">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Corner Accents -->
+  <path d="M 50 25 L 50 10 L 80 10" fill="none" stroke="#E6B8FF" stroke-width="2" opacity="0.6">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 850 25 L 850 10 L 820 10" fill="none" stroke="#B8D4FF" stroke-width="2" opacity="0.6">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  </path>
+  
+  <!-- Scanning Line Effect -->
+  <line x1="50" y1="10" x2="50" y2="10" stroke="#FFB8D4" stroke-width="3" opacity="0.8">
+    <animate attributeName="x1" values="50;850;50" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100;900;100" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="6s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Status Indicators -->
+  <circle cx="100" cy="35" r="4" fill="#6bcb77">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="115" y="39" font-family="'Courier New', monospace" font-size="10" fill="#6e7681">SYNCED</text>
+  
+  <circle cx="800" cy="35" r="4" fill="#6bcb77">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <text x="750" y="39" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#6e7681">LIVE DATA</text>
+</svg>
