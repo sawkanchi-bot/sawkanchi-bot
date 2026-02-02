@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" width="600">
+  <defs>
+    <filter id="contactGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="contactLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E6B8FF;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#FFB8D4;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#B8D4FF;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  
+  <!-- Connecting Line -->
+  <line x1="100" y1="50" x2="500" y2="50" stroke="url(#contactLine)" stroke-width="1">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Node 1: LinkedIn -->
+  <g transform="translate(100, 50)" filter="url(#contactGlow)">
+    <circle r="20" fill="#1a1a2e" stroke="#E6B8FF" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text y="4" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#E6B8FF">in</text>
+    <text y="45" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#6e7681">LinkedIn</text>
+    
+    <!-- Pulse -->
+    <circle r="20" fill="none" stroke="#E6B8FF" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="20;35" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Node 2: Twitter -->
+  <g transform="translate(233, 50)" filter="url(#contactGlow)">
+    <circle r="20" fill="#1a1a2e" stroke="#FFB8D4" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <text y="4" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#FFB8D4">𝕏</text>
+    <text y="45" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#6e7681">Twitter</text>
+    
+    <circle r="20" fill="none" stroke="#FFB8D4" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="20;35" dur="3s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.6;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+  </g>
+  
+  <!-- Node 3: Email -->
+  <g transform="translate(366, 50)" filter="url(#contactGlow)">
+    <circle r="20" fill="#1a1a2e" stroke="#B8D4FF" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <text y="4" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#B8D4FF">@</text>
+    <text y="45" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#6e7681">Email</text>
+    
+    <circle r="20" fill="none" stroke="#B8D4FF" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="20;35" dur="3s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0.6;0" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+  </g>
+  
+  <!-- Node 4: Portfolio -->
+  <g transform="translate(500, 50)" filter="url(#contactGlow)">
+    <circle r="20" fill="#1a1a2e" stroke="#E6B8FF" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.8s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <text y="4" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#E6B8FF">◇</text>
+    <text y="45" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#6e7681">Portfolio</text>
+    
+    <circle r="20" fill="none" stroke="#E6B8FF" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="20;35" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="0.6;0" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+  </g>
+  
+  <!-- Traveling Signal -->
+  <circle r="3" fill="#FFB8D4" opacity="0.8">
+    <animate attributeName="cx" values="100;500" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="50;50" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
